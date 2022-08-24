@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Garendemirdogen/cuddly-octo-system/issues"
   },
-  "homepage": "https://github.com/Garendemirdogen/cuddly-octo-system#readme"
+  "homepage": "https://github.com/Garendemirdogen/cuddly-octo-system#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
