@@ -6,7 +6,7 @@ var fs = require("fs");
 var app = express();
 const PORT = process.env.PORT || 3001;
 
-// Set up Express app to handle data
+// Set up Express app to handle data and parsing of data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("assets"));
@@ -16,4 +16,12 @@ var note = [];
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
+});
+
+app.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/notes.html"));
+});
+// To display all notes that have been made
+app.get("/api/notes", (req, res) => {
+  return res.json(note);
 });
