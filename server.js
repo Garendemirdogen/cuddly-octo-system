@@ -25,3 +25,9 @@ app.get("/notes", (req, res) => {
 app.get("/api/notes", (req, res) => {
   return res.json(note);
 });
+
+app.post("/api/notes", (req, res) => {
+  var newNotes = req.body;
+  note.push(newNotes);
+  res.json(newNotes);
+});
