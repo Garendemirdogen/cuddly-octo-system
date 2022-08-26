@@ -20,6 +20,10 @@
 
 # Link to app
 
+https://ekatsk-note-taker.herokuapp.com/
+
 # GitHub repository link
+
+https://github.com/Garendemirdogen/cuddly-octo-system
 
 Refactored by Garen Demirdogen 2022
