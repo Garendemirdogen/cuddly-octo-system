@@ -14,11 +14,11 @@ expressApp.use(express.static("public"));
 var note = [];
 
 expressApp.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
+  res.sendFile(path.join(__dirname, "./index.html"));
 });
 
 expressApp.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/notes.html"));
+  res.sendFile(path.join(__dirname, "./otes.html"));
 });
 // To display all notes that have been made
 expressApp.get("/api/notes", (req, res) => {
