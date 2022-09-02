@@ -18,6 +18,12 @@
       THEN I am presented with empty fields to enter a new note title and the note’s text in
       the right-hand column
 
+# Screenshots of application
+
+![Note Taker](./img/Note%20Taker.png)
+
+![Notes](./img/Note%20Taker%202.png)
+
 # Link to app
 
 https://ekatsk-note-taker.herokuapp.com/
