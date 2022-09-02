@@ -18,7 +18,7 @@ expressApp.get("/", (req, res) => {
 });
 
 expressApp.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "./otes.html"));
+  res.sendFile(path.join(__dirname, "./notes.html"));
 });
 // To display all notes that have been made
 expressApp.get("/api/notes", (req, res) => {
