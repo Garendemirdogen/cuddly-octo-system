@@ -31,9 +31,9 @@ expressApp.post("/api/notes", (req, res) => {
   res.json(newNotes);
 });
 
-app.delete("/api/notes/:id", (req, res) => {
-  var removeNote = req.params.id;
-});
+// app.delete("/api/notes/:id", (req, res) => {
+//   var removeNote = req.params.id;
+// });
 
 // Starts the server
 expressApp.listen(PORT, () => {
